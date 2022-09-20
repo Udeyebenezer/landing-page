@@ -1,0 +1,118 @@
+body {
+   background-image: url("../music.jpg");
+   background-repeat: no-repeat;
+   width: 100vh;
+   height: 100%;
+   background-size: cover;
+   background-position: center;
+}
+ h2 {
+    font-style: italic;
+     font-size: 2rem;
+    color: #dfcac7;
+ }
+ .brand-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .logo{
+    width: 100px;
+    margin-right: 1.5rem;
+ }
+ .sign {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    background-color: rgb(216, 17, 17);
+    border: 20px;
+    max-width: 450px;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 5rem;
+    padding: .5em 1em;
+ }
+ h1{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ h3{
+    color: #df252e;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ p{
+    color: #df252e;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .email{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+ }
+  .email input{
+    background-color: #c8c8e6;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding: 1em 2em;
+    margin-right: 2rem;
+  }
+ .email button{
+background-color:red;
+color:  #c8c8e6;;
+border-radius: .5rem;
+padding-left: 2rem;
+padding-right: 2rem;
+cursor: pointer;
+ }
+ .contact{
+   color: #4848d6;
+   display: inline-block;
+   margin-top: 2rem;
+   height: 3rem;
+ 
+ }
+ .follow {
+   text-align: center;
+   justify-content: center;
+   font-style: italic;
+   margin-left: 2rem;
+ }
+ i {
+   margin-right: 2rem;
+
+ }
+ 
+ button {
+   background-color: brown;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   padding-bottom: .5rem;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: -20px;
+   font-size: 2rem;
+   color: #c8c8e6;
+   cursor: pointer;
+   border-radius: 50%;
+}
+ a {
+   text-decoration: none;
+ }
+
+
